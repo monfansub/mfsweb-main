@@ -1,0 +1,60 @@
+{
+    "short_name": "Mon Fansub",
+    "name": "Mon Fansub",
+    "start_url": "/",
+    "background_color": "#009cff",
+    "display": "standalone",
+    "theme_color": "#009cff",
+    "description": "Mon Fansub là nhóm dịch phim Doraemon được thành lập vào ngày 20/10/2016 với sứ mệnh mang đến cho mọi người những tập phim mới nhất và chất chơi nhất!",
+    "icons": [
+        {
+            "src": "/icon-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "sizes": "1600x900",
+            "type": "image/png",
+            "src": "https://www.monfansubvn.com/screenshots/00.png",
+            "platform": "wide",
+            "label": "Màn hình chính - Home screen"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "DoraWatch",
+            "url": "/watch"
+        }
+    ],
+    "dir": "auto",
+    "lang": "vi",
+    "scope": "https://www.monfansubvn.com",
+    "orientation": "any",
+    "categories": [
+        "entertainment",
+        "social"
+    ],
+    "gcm_sender_id": "249680849147",
+    "display_override": [
+        "window-control-overlay",
+        "standalone",
+        "browser"
+    ]
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngoại tuyến | Mon Fansub</title>
+    <style>
+        html {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+        }
+
+        body {
+            font-family: Google Sans, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .svg-icon {
+            width: 250px;
+        }
+
+
+        .button {
+            display: inline-block;
+            position: relative;
+            height: auto;
+            cursor: pointer;
+            min-width: 0;
+            margin: 0;
+            padding: 0;
+            background: none;
+            color: inherit;
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 4px;
+            font-size: 1.2rem;
+            font-weight: inherit;
+            line-height: inherit;
+            text-transform: none;
+            text-decoration: none;
+            text-align: left;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            transition-property: color, background, opacity, border, -webkit-filter;
+            transition-property: color, background, opacity, border, filter;
+            transition-property: color, background, opacity, border, filter, -webkit-filter;
+            white-space: nowrap;
+        }
+
+        .button.-theme-primary {
+            color: #fff;
+            background: linear-gradient(#66bff6, #57b9f5);
+            box-shadow: inset 0 -2px #30a9f3;
+        }
+
+        .button.-size-big {
+            height: 3.5rem;
+            min-width: 8rem;
+            padding: 0 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .2px;
+            --icon-only-size: 18px;
+        }
+
+        .button:not([disabled]):not(.no\:hover):hover {
+            border-color: #61bdf6 !important;
+        }
+
+        .button:active {
+            opacity: 1;
+            transition-duration: 60ms;
+        }
+
+        .button:hover {
+            opacity: .75;
+        }
+    </style>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" data-v-5e2b9863="" viewBox="0 0 512 512" class="svg-icon svg-fill">
+        <path pid="0" d="M346 376h91v30h-91z" fill="#4bb9ec" />
+        <path pid="1" d="M75 376h91v30H75z" fill="#76e2f8" />
+        <path pid="2"
+            d="M512 241c0 41.35-33.65 75-75 75H75c-41.35 0-75-33.65-75-75 0-36.53 26.25-67.05 60.89-73.67C67.61 115.87 111.74 76 165 76c5.28 0 11 .48 16.69 1.39C201.44 57.34 228.06 46 256 46s54.56 11.34 74.31 31.39C336 76.48 341.72 76 347 76c53.26 0 97.39 39.87 104.11 91.33C485.75 173.95 512 204.47 512 241z"
+            fill="#edf5ff" />
+        <path pid="3"
+            d="M512 241c0 41.35-33.65 75-75 75H256V46c27.94 0 54.56 11.34 74.31 31.39C336 76.48 341.72 76 347 76c53.26 0 97.39 39.87 104.11 91.33C485.75 173.95 512 204.47 512 241z"
+            fill="#d5e8fe" />
+        <path pid="4" d="M256 256c-57.9 0-105 47.1-105 105s47.1 105 105 105 105-47.1 105-105-47.1-105-105-105z"
+            fill="#ff8859" />
+        <path pid="5" d="M361 361c0 57.9-47.1 105-105 105V256c57.9 0 105 47.1 105 105z" fill="#ff3939" />
+        <path pid="6"
+            d="m277.21 361 21.22 21.21-21.22 21.22L256 382.21l-21.21 21.22-21.22-21.22L234.79 361l-21.22-21.21 21.22-21.22L256 339.79l21.21-21.22 21.22 21.22z"
+            fill="#edf5ff" />
+        <path pid="7" d="m277.21 361 21.22 21.21-21.22 21.22L256 382.21v-42.42l21.21-21.22 21.22 21.22z"
+            fill="#d5e8fe" />
+        <path pid="8" d="M45 436c-24.813 0-45-20.187-45-45s20.187-45 45-45 45 20.187 45 45-20.187 45-45 45z"
+            fill="#76e2f8" />
+        <path pid="9" d="M467 436c-24.813 0-45-20.187-45-45s20.187-45 45-45 45 20.187 45 45-20.187 45-45 45z"
+            fill="#4bb9ec" />
+    </svg>
+
+    <h2>Không có kết nối mạng!</h2>
+    <p>Vui lòng kiểm tra lại đường truyền internet của bạn sau đó thử lại</p>
+    <br />
+    <button onclick="window.location.reload()" class="button -theme-primary -size-big">
+        Thử lại
+    </button>
+</body>
+
+</html>

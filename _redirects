@@ -1,0 +1,18 @@
+/home/* /index.html 200
+/comment/pid/* /index.html 200
+/home/* /index.html 200
+/creator/media/id/* /index.html 200
+/watch/* /index.html 200
+/donate/* /index.html 200
+/special/* /index.html 200
+/history/* /index.html 200
+/setting/* /index.html 200
+/profile/* /index.html 200
+
+/watch /index.html 200
+/donate /index.html 200
+/special /index.html 200
+/history /index.html 200
+/setting /index.html 200
+
+/* /ipfs-404.html 404
